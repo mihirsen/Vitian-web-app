@@ -1,0 +1,20 @@
+.vit-app {
+  font-size: 30px;
+  font-weight: 700;
+  color: blue;
+  text-align: center; /* Center align the text */
+  background-color: yellow; /* Add a background color */
+}
+
+@media (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  #subject-list {
+    width: 100%; /* Take full width on mobile */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .vit-app {
+    font-size: 20px;
+  }
+}
